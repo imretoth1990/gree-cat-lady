@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./ContactForm.css";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -13,6 +14,19 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Submitted", { name, email, telNumber, message });
+    if (name && email && message) {
+      axios
+        .post("http://localhost:3300/send_email", {
+          name,
+          email,
+          telNumber,
+          message,
+        })
+        .then(() => alert("Message Send Succesfully"))
+        .catch(() => alert("Opppsy daisy..."));
+      return;
+    }
+    return alert("Fill in all the fields to continue");
   };
 
   return (
