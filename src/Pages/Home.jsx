@@ -1,11 +1,16 @@
+import "../Pages/Pages.css";
+import { useTranslation } from "react-i18next";
+
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
-    <div>
+    <div className="center">
       <header>
         <h1>Green Cat Lady</h1>
       </header>
-      <main>
-        <p>Welcome to our homepage!</p>
+      <main className="center">
+        <p>{t("HomeText")}</p>
       </main>
     </div>
   );

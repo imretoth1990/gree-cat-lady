@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./LanguageSelector";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -14,13 +15,19 @@ const Navbar = () => {
       <div className="navbar-center">
         <ul className="nav-links">
           <li>
-            <a href="/about">{t("About")}</a>
+            <Link to="/about">
+              <div>{t("About")}</div>
+            </Link>
           </li>
           <li>
-            <a href="/services">{t("Services")}</a>
+            <Link to="/services">
+              <div>{t("Services")}</div>
+            </Link>
           </li>
           <li>
-            <a href="/contact">{t("Contact")}</a>
+            <Link to="/contact">
+              <div>{t("Contact")}</div>
+            </Link>
           </li>
         </ul>
       </div>
