@@ -2,5 +2,16 @@
   "About": "Über uns",
   "Services": "Dienstleistungen",
   "Contact": "Kontakt",
-  "HomeText": "Willkommen auf unserer Webseite!"
+  "ContactText": "Bei Fragen oder Wünschen können Sie mich anrufen oder per Formular anschreiben.",
+  "ContactName": "Timea Szabo",
+  "Submit": "Senden",
+  "HomeText": "Willkommen auf unserer Webseite!",
+  "Name": "Namen eingeben*",
+  "NamePH": "Vorname",
+  "Email": "E-Mail-Adresse eingeben*",
+  "EmailPH": "E-Mail-Adresse",
+  "Tel": "Telefonnummer eingeben*",
+  "TelPH": "Telefon",
+  "Message": "Nachricht eingeben*",
+  "MessagePH": "Schreiben Sie Ihre Anfrage"
 }

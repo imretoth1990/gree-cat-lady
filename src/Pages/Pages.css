@@ -3,3 +3,32 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/*Contact*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 10rem;
+}
+
+.contactInfos {
+  width: 25rem;
+}
+
+.contactData {
+  margin-top: 4rem;
+}
+
+.contactImage {
+  width: 10rem;
+  margin-bottom: 3rem;
+  display: block;
+  margin-left: 5.5rem;
+  margin-right: auto;
+}
+
+.form {
+  margin-left: 10rem;
+}

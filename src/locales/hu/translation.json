@@ -1,1 +1,17 @@
-{ "About": "Rólunk", "Services": "Szolgáltatások", "Contact": "Kapcsolat", "HomeText": "Üdvözöljük az oldalunkon!" }
+{
+  "About": "Rólunk",
+  "Services": "Szolgáltatások",
+  "Contact": "Kapcsolat",
+  "ContactText": "Kérdéseivel forduljon hozzám bizalommal telefonon vagy e-mailben!",
+  "ContactName": "Szabó Tímea",
+  "Submit": "Küldés",
+  "HomeText": "Üdvözöljük az oldalunkon!",
+  "Name": "Név*",
+  "NamePH": "Keresztnév",
+  "Email": "Kérjük adja meg email címét*",
+  "EmailPH": "Email cím",
+  "Tel": "Telefonszám*",
+  "TelPH": "Mobil",
+  "Message": "Kérjük, írjon üzenetet*",
+  "MessagePH": "Üzenetét ide írhatja"
+}

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "josefin-sans";
+  src: url("../Components/josefin-sans/JosefinSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.formContainer {
+  width: 35rem;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: rgba(255, 0, 255, 0);
+  border-bottom: 1px solid grey;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+  border: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "josefin-sans";
+  color: rgba(128, 128, 128, 0.694);
+}
+
+.messageInput {
+  width: 100%;
+  height: 5rem;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+button {
+  background-color: #f8e7d5;
+  font-family: "josefin-sans";
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: "1px solid #ccc";
+  background-color: #fff;
+}

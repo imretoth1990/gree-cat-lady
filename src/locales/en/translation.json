@@ -1,1 +1,17 @@
-{ "About": "About", "Services": "Services", "Contact": "Contact", "HomeText": "Welcome to our Website!" }
+{
+  "About": "About",
+  "Services": "Services",
+  "Contact": "Contact",
+  "ContactText": "If you have any questions or requests, you can call me or contact me via the form.",
+  "ContactName": "Timea Szabo",
+  "Submit": "Submit",
+  "HomeText": "Welcome to our Website!",
+  "Name": "Name*",
+  "NamePH": "Surname",
+  "Email": "Give us your email*",
+  "EmailPH": "Email adress",
+  "Tel": "Your mobile number*",
+  "TelPH": "Mobile",
+  "Message": "Write your message*",
+  "MessagePH": "Please write your message here"
+}

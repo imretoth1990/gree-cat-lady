@@ -12,7 +12,6 @@
 
 body {
   font-family: "josefin-sans";
-  text-transform: uppercase;
   background-color: var(--color1);
   background-image: url("../Navbar/Timi.Cica.png");
   background-repeat: no-repeat;
@@ -39,6 +38,8 @@ body {
   list-style-type: none;
   display: flex;
   margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0;
 }
 
