@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar.jsx";
-import LanguageSelector from "./components/LanguageSelector.jsx";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (

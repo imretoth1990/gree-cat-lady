@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import "../components/Navbar/Navbar.css";
+import "./Navbar.css";
 
 const CustomSelect = ({ options, onChange, defaultValue, className, style, selectProps, optionProps, storageKey = "selectedValue" }) => {
-  const savedValue = localStorage.getItem(storageKey) || defaultValue || "";
+  const startingValue = "de";
+  const savedValue = localStorage.getItem(storageKey) || defaultValue || startingValue;
   const [selectedValue, setSelectedValue] = useState(savedValue);
   const [isOpen, setIsOpen] = useState(false);
   const selectRef = useRef(null);
@@ -43,7 +44,7 @@ const CustomSelect = ({ options, onChange, defaultValue, className, style, selec
   return (
     <div ref={selectRef} className={`custom-select ${className}`} style={{ position: "relative", ...style }} {...selectProps}>
       <div className="selected-value" onClick={toggleDropdown} style={{ cursor: "pointer" }}>
-        {options.find((option) => option.value === selectedValue)?.label || "Select an option"}
+        {options.find((option) => option.value === selectedValue)?.label || "DE/EN/HU"}
       </div>
       {isOpen && (
         <div

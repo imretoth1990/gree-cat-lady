@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "../LanguageSelector";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
   const { t } = useTranslation();
